@@ -12,6 +12,44 @@
         WindowStartupLocation="CenterScreen" MouseDown="Border_MouseDown">
     <Window.Resources>
 
+        <ImageBrush x:Key="HomeBtn_MouseOver" ImageSource="/Resourses/HomeBtn_MouseOver.png"/>
+
+        <Style x:Key="Home_btn" TargetType="{x:Type Button}">
+
+            <Setter Property="Template">
+
+                <Setter.Value>
+
+                    <ControlTemplate TargetType="{x:Type Button}">
+
+                        <Border x:Name="button"
+                                BorderThickness="0"
+                                Background="{TemplateBinding Background}"
+                                SnapsToDevicePixels="True">
+
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+
+                            <Trigger Property="IsMouseOver"
+                                     Value="True">
+
+                                <Setter Property="Background"
+                                        TargetName="button"
+                                        Value="{StaticResource HomeBtn_MouseOver}"/>
+
+                            </Trigger>
+
+                        </ControlTemplate.Triggers>
+
+                    </ControlTemplate>
+
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+        
         <!--// Toggle Button Style Template //-->
 
         <ImageBrush x:Key="tb_mouse_over"

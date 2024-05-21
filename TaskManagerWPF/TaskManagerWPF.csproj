@@ -286,6 +286,8 @@
       <DependentUpon>TaskManagerDBModel.edmx</DependentUpon>
       <LastGenOutput>TaskManagerDBModel.cs</LastGenOutput>
     </Content>
+    <Resource Include="Resourses\BackBtn_MouseOver.png" />
+    <Resource Include="Resourses\HomeBtn_MouseOver.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets')" />

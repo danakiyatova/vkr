@@ -87,9 +87,17 @@ namespace TaskManagerWPF.View.Windows
 
         private void HomeBtn_Click(object sender, RoutedEventArgs e)
         {
-            MainMenuWindow mainMenuWindow = new MainMenuWindow();
-            mainMenuWindow.Show();
-            this.Close();
+            this.Hide();
+            if (App.IsUserAdmin)
+            {
+                WindowForAdmin adminWindow = new WindowForAdmin();
+                adminWindow.Show();
+            }
+            else
+            {
+                MainMenuWindow mainWindow = new MainMenuWindow();
+                mainWindow.Show();
+            }
         }
 
         private void CloseBtn_Click(object sender, RoutedEventArgs e)

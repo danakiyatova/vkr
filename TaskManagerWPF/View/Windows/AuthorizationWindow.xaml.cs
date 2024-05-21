@@ -36,12 +36,14 @@ namespace TaskManagerWPF.View.Windows
                 // Проверка на админский логин и пароль        
                 if (authVM.Login == "direct" && authVM.Password == "direct")
                 {
+                    App.IsUserAdmin = true;
                     WindowForAdmin adminWindow = new WindowForAdmin();
                     adminWindow.Show();
                     this.Hide();
                 }
                 else
                 {
+                    App.IsUserAdmin = false;
                     MainMenuWindow mainWindow = new MainMenuWindow();
                     mainWindow.Show();
                     this.Hide();
