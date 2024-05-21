@@ -1,0 +1,207 @@
+﻿<Window x:Class="TaskManagerWPF.View.Windows.InsertTaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskManagerWPF.View.Windows"
+        mc:Ignorable="d"
+        Title="InsertTaskWindow" Height="550"  
+        Width="400"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen" MouseDown="Border_MouseDown">
+
+    <Window.Resources>
+
+        <!--// Toggle Button Style Template //-->
+
+        <ImageBrush x:Key="tb_mouse_over"
+                    ImageSource="/Resourses/tgBtn_MouseOver.png"/>
+
+        <!--// App Close Button Style Template //-->
+
+        <ImageBrush x:Key="CloseBtn_MouseOver" ImageSource="/Resourses/closeBtn_MouseOver.png"/>
+
+        <Style x:Key="Close_btn" TargetType="{x:Type Button}">
+
+            <Setter Property="Template">
+
+                <Setter.Value>
+
+                    <ControlTemplate TargetType="{x:Type Button}">
+
+                        <Border x:Name="button"
+                                BorderThickness="0"
+                                Background="{TemplateBinding Background}"
+                                SnapsToDevicePixels="True">
+
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+
+                            <Trigger Property="IsMouseOver"
+                                     Value="True">
+
+                                <Setter Property="Background"
+                                        TargetName="button"
+                                        Value="{StaticResource CloseBtn_MouseOver}"/>
+
+                            </Trigger>
+
+                        </ControlTemplate.Triggers>
+
+                    </ControlTemplate>
+
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+
+        <Style x:Key="font_style_two" TargetType="TextBlock">
+
+            <Setter Property="FontFamily"
+                    Value="Fonts/Roboto-Light.ttf #Roboto"/>
+
+            <Setter Property="VerticalAlignment"
+                    Value="Stretch"/>
+
+
+
+            <Setter Property="Foreground"
+                    Value="White"/>
+
+            <Setter Property="FontSize"
+                    Value="18"/>
+        </Style>
+
+        <Style x:Key="font_style" TargetType="TextBlock">
+
+            <Setter Property="FontFamily"
+                    Value="Fonts/Roboto-Light.ttf #Roboto"/>
+
+            <Setter Property="VerticalAlignment"
+                    Value="Center"/>
+
+            <Setter Property="HorizontalAlignment"
+                    Value="Center"/>
+
+            <Setter Property="Foreground"
+                    Value="White"/>
+
+            <Setter Property="FontSize"
+                    Value="20"/>
+
+        </Style>
+
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="#2E333A" x:Name="Bd"  
+                            BorderThickness="3" CornerRadius="5" BorderBrush="#FF0A7B00"  >
+
+                            <ContentPresenter />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="White"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="White"/>
+                                <Setter Property="Foreground" Value="Black"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="False">
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                            <Trigger Property="Width" Value="Auto">
+                                <Setter Property="MinWidth" Value="120"/>
+                            </Trigger>
+                            <Trigger Property="Height" Value="Auto">
+                                <Setter Property="MinHeight" Value="27"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+
+    <Grid Background="#2E333A">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+
+        <Grid  x:Name="myGrid" x:FieldModifier="public">
+
+            <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10,0,10,20" x:Name="CloseBtn" Height="30"
+                        Width="30" BorderThickness="0"
+                        
+                       Click="CloseBtn_Click" ToolTip="Close" Style="{StaticResource Close_btn}" >
+                <Button.Background>
+                    <ImageBrush ImageSource="/Resourses/closeBtn_default.png" Stretch="Fill"/>
+                </Button.Background>
+            </Button>
+            <Button HorizontalAlignment="Right" VerticalAlignment="Center" Height="30" Width="30" Margin="10,0,60,10" Click="BackBtn_Click" BorderThickness="0" >
+                <Button.Background>
+                    <ImageBrush ImageSource="/Resourses/back.png"/>
+                </Button.Background>
+            </Button>
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <StackPanel>
+
+                <TextBlock Margin="20,0,20,0" Text="Название" FontSize="15" Style="{StaticResource font_style_two}"/>
+                <TextBox Margin="20,0,20,0"  Name="InsertTaskName" Height="30" FontFamily="Comic Sans MS" />
+
+                <TextBlock Margin="20,10,20,0" Text="Исполнитель" FontSize="15"  Style="{StaticResource font_style_two}" />
+                <TextBox Margin="20,0,20,0"  Name="TaskExecutorTB" Height="30" FontFamily="Comic Sans MS"/>
+
+                <TextBlock Margin="20,10,20,0" Text="Описание" FontSize="15" Style="{StaticResource font_style_two}"/>
+                <TextBox Margin="20,0,20,0" Name="InsertTaskContext" Height="30" FontFamily="Comic Sans MS"/>
+
+                <TextBlock Margin="20,10,20,0" Text="Начало" FontSize="15"  Style="{StaticResource font_style_two}" />
+                <DatePicker Margin="20,0,20,0" Name="InsertTaskStart" Height="30" FirstDayOfWeek="Monday" DisplayDate="2024-01-11" DisplayDateStart="2024-01-11"/>
+
+                <TextBlock Margin="20,10,20,0" Text="Завершение" FontSize="15" Style="{StaticResource font_style_two}" />
+                <DatePicker Margin="20,0,20,0" Name="InsertTaskEnd" Height="30" FirstDayOfWeek="Monday" DisplayDate="2024-01-11" DisplayDateStart="2024-01-11"/>
+
+                <TextBlock Margin="20,10,20,0" Text="Статус" FontSize="15"  Style="{StaticResource font_style_two}" />
+                <ComboBox Margin="20,0,20,0" SelectedItem="{Binding TaskStatus}" Name="TaskStatusCB" DisplayMemberPath="TaskStatusName" Height="30" FontFamily="Roboto Light"/>
+
+                <TextBlock Margin="20,10,20,0" Text="Ответственный" FontSize="15" Style="{StaticResource font_style_two}" />
+                <ComboBox Margin="20,0,20,0" SelectedItem="{Binding Employee}" x:Name="TaskEmployeeCB" DisplayMemberPath="Surname" Height="30" FontFamily="Roboto Light"/>
+               
+
+                
+
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Height="40" Width="150" HorizontalAlignment="Center" Margin="0,0,0,0" x:Name="BtnAddBooking" 
+                  BorderBrush="#FF05006D" Click="InsertTask_Click" FontFamily="Roboto Light" FontSize="18"  Style="{StaticResource ButtonStyle}" Foreground="#FF0A7B00"
+                Background="White" VerticalAlignment="Center" >
+                    <TextBlock Text="ДОБАВИТЬ" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Normal"  Style="{StaticResource font_style}" FontSize="17" Foreground="White" >
+                    <TextBlock.Effect>
+
+                        <DropShadowEffect  BlurRadius="4"
+                                                   ShadowDepth="1"
+                                                   Direction="-90"
+                                                   Color="White"/>
+
+                    </TextBlock.Effect>
+                    </TextBlock>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,229 @@
+﻿<Window x:Class="TaskManagerWPF.View.Windows.AuthorizationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskManagerWPF.View.Windows"
+       mc:Ignorable="d"
+         Title="Authorization" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" MouseDown="Border_MouseDown" Foreground="#FF0A7B00">
+
+    <Window.Resources>
+
+
+        <!--// Toggle Button Style Template //-->
+
+        <ImageBrush x:Key="tb_mouse_over"
+                    ImageSource="/Resourses/tgBtn_MouseOver.png"/>
+
+        <!--// App Close Button Style Template //-->
+
+        <ImageBrush x:Key="CloseBtn_MouseOver" ImageSource="/Resourses/closeBtn_MouseOver.png"/>
+
+        <Style x:Key="Close_btn" TargetType="{x:Type Button}">
+
+            <Setter Property="Template">
+
+                <Setter.Value>
+
+                    <ControlTemplate TargetType="{x:Type Button}">
+
+                        <Border x:Name="button"
+                                BorderThickness="0"
+                                Background="{TemplateBinding Background}"
+                                SnapsToDevicePixels="True">
+
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+
+                            <Trigger Property="IsMouseOver"
+                                     Value="True">
+
+                                <Setter Property="Background"
+                                        TargetName="button"
+                                        Value="{StaticResource CloseBtn_MouseOver}"/>
+
+                            </Trigger>
+
+                        </ControlTemplate.Triggers>
+
+                    </ControlTemplate>
+
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+        
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" x:Name="Bd"  
+                            BorderThickness="2" CornerRadius="5" BorderBrush="#FF0A7B00" >
+                            <ContentPresenter />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="font_style" TargetType="TextBlock">
+
+            <Setter Property="FontFamily"
+                    Value="Fonts/Roboto-Light.ttf #Roboto"/>
+
+            <Setter Property="VerticalAlignment"
+                    Value="Center"/>
+
+            <Setter Property="HorizontalAlignment"
+                    Value="Center"/>
+
+            <Setter Property="Foreground"
+                    Value="White"/>
+
+            <Setter Property="FontSize"
+                    Value="20"/>
+
+        </Style>
+
+        <Style x:Key="textBoxStyle" TargetType="TextBox">
+            <Setter Property="SelectionBrush" Value="Black"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate >
+                        <Border Background="{TemplateBinding Background}" x:Name="Bd"  
+                     BorderThickness="2" CornerRadius="5" BorderBrush="#FFBBFF00" >
+                            <ScrollViewer x:Name="PART_ContentHost" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="#FFF5FF32"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="#FFF5FF32"/>
+                                <Setter Property="Foreground" Value="Black"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="False">
+                                <Setter Property="Foreground" Value="black"/>
+                            </Trigger>
+                            <Trigger Property="Width" Value="Auto">
+                                <Setter Property="MinWidth" Value="120"/>
+                            </Trigger>
+                            <Trigger Property="Height" Value="Auto">
+                                <Setter Property="MinHeight" Value="27"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Width" Value="370"/>
+            <Setter Property="Height" Value="25"/>
+        </Style>
+
+        <Style x:Key="passwordBoxStyle" TargetType="PasswordBox">
+            <Setter Property="SelectionBrush" Value="Black"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate >
+                        <Border Background="{TemplateBinding Background}" x:Name="Bd"  
+                     BorderThickness="2" CornerRadius="5" BorderBrush="#FFBBFF00" >
+                            <ScrollViewer x:Name="PART_ContentHost" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="#FFF5FF32"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="#FFF5FF32"/>
+                                <Setter Property="Foreground" Value="Black"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="False">
+                                <Setter Property="Foreground" Value="black"/>
+                            </Trigger>
+                            <Trigger Property="Width" Value="Auto">
+                                <Setter Property="MinWidth" Value="120"/>
+                            </Trigger>
+                            <Trigger Property="Height" Value="Auto">
+                                <Setter Property="MinHeight" Value="27"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Width" Value="370"/>
+            <Setter Property="Height" Value="25"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid >
+        
+      
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0.1,0" EndPoint="0.9,1">
+                <GradientStop Color="#FF0A7B00" Offset="1" />
+                <GradientStop Color="#FFBBFF00" Offset="0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Border Height="390" VerticalAlignment="Top" CornerRadius="0 0 180 0" Background="#2E333A">
+        </Border>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Width="350">
+                <Image Source="/Resourses/iconforest.png" Width="290" Height="300" VerticalAlignment="Top" Margin="30" Stretch="Fill" />
+            </StackPanel>
+            <StackPanel Width="350">
+                <StackPanel Margin="20 40">
+                    <TextBlock Text="А В Т О Р И З А Ц И Я" Margin="20"  Foreground="White"
+                                    FontSize="22"
+                                   
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Style="{StaticResource font_style}">
+                        <TextBlock.Effect>
+
+                            <DropShadowEffect  BlurRadius="10"
+                                                   ShadowDepth="1"
+                                                   Direction="-90"
+                                                   Color="White"/>
+
+                        </TextBlock.Effect></TextBlock>
+                    <StackPanel Grid.Row="2" Margin="13">
+                        <TextBlock FontFamily="Fonts/Roboto-Light.ttf #Roboto" Text="Введите логин:" FontSize="19" HorizontalAlignment="Left" FontWeight="Normal" FontStyle="Normal" TextDecorations="{x:Null}" Foreground="#FFBBFF00" />
+                        <TextBox Text="{Binding Login}" FontFamily="Fonts/Roboto-Light.ttf #Roboto" Height="30" Width="280" FontSize="18" Style="{StaticResource textBoxStyle}" Margin="0,0,0,0" TextAlignment="Left" FontWeight="Normal" />
+
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="3" Margin="13">
+                        <TextBlock  FontFamily="Fonts/Roboto-Light.ttf #Roboto" Text="Введите пароль:" FontSize="19" HorizontalAlignment="Left" FontWeight="Normal" FontStyle="Normal" TextDecorations="{x:Null}" Foreground="#FFBBFF00" />
+                        <PasswordBox x:Name="password" Height="30" Width="280" FontSize="18"  Style="{StaticResource passwordBoxStyle}"/>
+                    </StackPanel>
+                    <StackPanel Margin="10" HorizontalAlignment="Center">
+                        <Button Grid.Row="4" Height="30" Width="100" HorizontalAlignment="Right" Margin="10" x:Name="btnSignIn" Click="btnSignIn_Click"
+                
+              Foreground="Black" Background="White" FontFamily="Roboto Light" FontSize="18"
+                BorderBrush="Black"  Style="{StaticResource ButtonStyle}">
+                            <Label Content="{Binding ButtonSignIn}" HorizontalAlignment="Center" VerticalAlignment="Center"  Foreground="Black" FontFamily="Tahoma" FontSize="14"/>
+                        </Button>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+           
+            <StackPanel Width="100" >
+                <Button Margin="10 20" x:Name="CloseBtn" Height="30"
+                        Width="30"
+                        BorderThickness="0"
+                       Click="CloseBtn_Click" ToolTip="Close" Style="{StaticResource Close_btn}">
+
+                    <Button.Background>
+
+                        <ImageBrush ImageSource="/Resourses/closeBtn_default.png" TileMode="Tile" ViewboxUnits="RelativeToBoundingBox" Stretch="Fill"/>
+
+                    </Button.Background>
+                </Button>
+
+
+            </StackPanel>
+        </StackPanel>
+        
+    </Grid>
+</Window>

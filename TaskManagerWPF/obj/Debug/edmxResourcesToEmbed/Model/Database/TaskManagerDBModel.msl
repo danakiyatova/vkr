@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище TaskManagerDBModelContainer" CdmEntityContainer="TaskManagerDBEntities">
+    <EntitySetMapping Name="Authorization">
+      <EntityTypeMapping TypeName="TaskManagerDBModel.Authorization">
+        <MappingFragment StoreEntitySet="Authorization">
+          <ScalarProperty Name="AuthorizationID" ColumnName="AuthorizationID" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee">
+      <EntityTypeMapping TypeName="TaskManagerDBModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="LastLogin" ColumnName="LastLogin" />
+          <ScalarProperty Name="EmployeeImage" ColumnName="EmployeeImage" />
+          <ScalarProperty Name="JobID" ColumnName="JobID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Job">
+      <EntityTypeMapping TypeName="TaskManagerDBModel.Job">
+        <MappingFragment StoreEntitySet="Job">
+          <ScalarProperty Name="JobID" ColumnName="JobID" />
+          <ScalarProperty Name="JobName" ColumnName="JobName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="TaskManagerDBModel.News">
+        <MappingFragment StoreEntitySet="News">
+          <ScalarProperty Name="NewsID" ColumnName="NewsID" />
+          <ScalarProperty Name="NewsText" ColumnName="NewsText" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Task">
+      <EntityTypeMapping TypeName="TaskManagerDBModel.Task">
+        <MappingFragment StoreEntitySet="Task">
+          <ScalarProperty Name="TaskID" ColumnName="TaskID" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="TaskExecutor" ColumnName="TaskExecutor" />
+          <ScalarProperty Name="TaskContext" ColumnName="TaskContext" />
+          <ScalarProperty Name="TaskStart" ColumnName="TaskStart" />
+          <ScalarProperty Name="TaskEnd" ColumnName="TaskEnd" />
+          <ScalarProperty Name="TaskStatusID" ColumnName="TaskStatusID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskStatus">
+      <EntityTypeMapping TypeName="TaskManagerDBModel.TaskStatus">
+        <MappingFragment StoreEntitySet="TaskStatus">
+          <ScalarProperty Name="TaskStatusID" ColumnName="TaskStatusID" />
+          <ScalarProperty Name="TaskStatusName" ColumnName="TaskStatusName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetEmployeeSurname" FunctionName="Хранилище TaskManagerDBModel.GetEmployeeSurname" />
+    <FunctionImportMapping FunctionImportName="GetStatusName" FunctionName="Хранилище TaskManagerDBModel.GetStatusName" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\justb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\TaskManagerWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07D85076-AD24-4698-AC9D-1FBC6E90CBE0}|TaskManagerWPF\\TaskManagerWPF.csproj|c:\\users\\justb\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\taskmanagerwpf\\taskmanagerwpf\\view\\windows\\employeeswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07D85076-AD24-4698-AC9D-1FBC6E90CBE0}|TaskManagerWPF\\TaskManagerWPF.csproj|solutionrelative:taskmanagerwpf\\view\\windows\\employeeswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07D85076-AD24-4698-AC9D-1FBC6E90CBE0}|TaskManagerWPF\\TaskManagerWPF.csproj|c:\\users\\justb\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\taskmanagerwpf\\taskmanagerwpf\\view\\windows\\employeeswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{07D85076-AD24-4698-AC9D-1FBC6E90CBE0}|TaskManagerWPF\\TaskManagerWPF.csproj|solutionrelative:taskmanagerwpf\\view\\windows\\employeeswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07D85076-AD24-4698-AC9D-1FBC6E90CBE0}|TaskManagerWPF\\TaskManagerWPF.csproj|c:\\users\\justb\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\taskmanagerwpf\\taskmanagerwpf\\viewmodel\\employeeswindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07D85076-AD24-4698-AC9D-1FBC6E90CBE0}|TaskManagerWPF\\TaskManagerWPF.csproj|solutionrelative:taskmanagerwpf\\viewmodel\\employeeswindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07D85076-AD24-4698-AC9D-1FBC6E90CBE0}|TaskManagerWPF\\TaskManagerWPF.csproj|c:\\users\\justb\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\taskmanagerwpf\\taskmanagerwpf\\view\\windows\\updatetaskwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07D85076-AD24-4698-AC9D-1FBC6E90CBE0}|TaskManagerWPF\\TaskManagerWPF.csproj|solutionrelative:taskmanagerwpf\\view\\windows\\updatetaskwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07D85076-AD24-4698-AC9D-1FBC6E90CBE0}|TaskManagerWPF\\TaskManagerWPF.csproj|c:\\users\\justb\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\taskmanagerwpf\\taskmanagerwpf\\view\\windows\\inserttaskwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07D85076-AD24-4698-AC9D-1FBC6E90CBE0}|TaskManagerWPF\\TaskManagerWPF.csproj|solutionrelative:taskmanagerwpf\\view\\windows\\inserttaskwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\justb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\TaskManagerWPF\\TaskManagerWPF\\ViewModel\\EmployeesWindowViewModel.cs",
+              "RelativeDocumentMoniker": "TaskManagerWPF\\ViewModel\\EmployeesWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\justb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\TaskManagerWPF\\TaskManagerWPF\\ViewModel\\EmployeesWindowViewModel.cs",
+              "RelativeToolTip": "TaskManagerWPF\\ViewModel\\EmployeesWindowViewModel.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAEwCwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T18:26:11.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\justb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\TaskManagerWPF\\TaskManagerWPF\\View\\Windows\\EmployeesWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManagerWPF\\View\\Windows\\EmployeesWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\justb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\TaskManagerWPF\\TaskManagerWPF\\View\\Windows\\EmployeesWindow.xaml.cs",
+              "RelativeToolTip": "TaskManagerWPF\\View\\Windows\\EmployeesWindow.xaml.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAlwGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T18:26:05.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\justb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\TaskManagerWPF\\TaskManagerWPF\\View\\Windows\\EmployeesWindow.xaml",
+              "RelativeDocumentMoniker": "TaskManagerWPF\\View\\Windows\\EmployeesWindow.xaml",
+              "ToolTip": "C:\\Users\\justb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\TaskManagerWPF\\TaskManagerWPF\\View\\Windows\\EmployeesWindow.xaml",
+              "RelativeToolTip": "TaskManagerWPF\\View\\Windows\\EmployeesWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T18:23:06.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateTaskWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\justb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\TaskManagerWPF\\TaskManagerWPF\\View\\Windows\\UpdateTaskWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManagerWPF\\View\\Windows\\UpdateTaskWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\justb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\TaskManagerWPF\\TaskManagerWPF\\View\\Windows\\UpdateTaskWindow.xaml.cs",
+              "RelativeToolTip": "TaskManagerWPF\\View\\Windows\\UpdateTaskWindow.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAlwB8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T18:21:47.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InsertTaskWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\justb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\TaskManagerWPF\\TaskManagerWPF\\View\\Windows\\InsertTaskWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManagerWPF\\View\\Windows\\InsertTaskWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\justb\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\TaskManagerWPF\\TaskManagerWPF\\View\\Windows\\InsertTaskWindow.xaml.cs",
+              "RelativeToolTip": "TaskManagerWPF\\View\\Windows\\InsertTaskWindow.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T18:19:27.554Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

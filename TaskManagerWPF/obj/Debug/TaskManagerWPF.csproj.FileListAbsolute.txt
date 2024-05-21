@@ -1,0 +1,257 @@
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.exe.config
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.exe
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.pdb
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.SuggestedBindingRedirects.cache
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\App.g.cs
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_MarkupCompile.cache
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_MarkupCompile.lref
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.g.resources
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.Properties.Resources.resources
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.GenerateResource.cache
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.CoreCompileInputs.cache
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.exe
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.pdb
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignColors.dll
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignColors.pdb
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.CopyComplete
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\AuthorizationWindow.g.cs
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\AuthorizationWindow.baml
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.dll
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.xml
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\dk\TaskManagerWPF\TaskManagerWPF\bin\Debug\ru\EntityFramework.resources.dll
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\MainMenuWindow.g.cs
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_Content.g.cs
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\MainMenuWindow.baml
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\CompanyInfoWindow.g.cs
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\CompanyInfoWindow.baml
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\EmployeesWindow.g.cs
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\NewsWindow.g.cs
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\TasksWindow.g.cs
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\EmployeesWindow.baml
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\NewsWindow.baml
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\TasksWindow.baml
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\DocumentsWindow.g.cs
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\DocumentsWindow.baml
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\InsertTaskWindow.g.cs
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\InsertTaskWindow.baml
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UpdateTaskWindow.g.cs
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UpdateTaskWindow.baml
+C:\dk\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.AssemblyReference.cache
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.exe.config
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.exe
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.pdb
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.dll
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.xml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\AuthorizationWindow.g.cs
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\CompanyInfoWindow.g.cs
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\DocumentsWindow.g.cs
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\EmployeesWindow.g.cs
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\InsertTaskWindow.g.cs
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\MainMenuWindow.g.cs
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\NewsWindow.g.cs
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\TasksWindow.g.cs
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UpdateTaskWindow.g.cs
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\App.g.cs
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_Content.g.cs
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_MarkupCompile.cache
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_MarkupCompile.lref
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\AuthorizationWindow.baml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\CompanyInfoWindow.baml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\DocumentsWindow.baml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\EmployeesWindow.baml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\InsertTaskWindow.baml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\MainMenuWindow.baml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\NewsWindow.baml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\TasksWindow.baml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UpdateTaskWindow.baml
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.g.resources
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.Properties.Resources.resources
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.GenerateResource.cache
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.CoreCompileInputs.cache
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.CopyComplete
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.exe
+C:\Users\2-PC\Desktop\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.pdb
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.exe.config
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.exe
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.pdb
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.dll
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.xml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\AuthorizationWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\CompanyInfoWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\DocumentsWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\EmployeesWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\InsertTaskWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\MainMenuWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\NewsWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\TasksWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UpdateTaskWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\App.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_Content.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_MarkupCompile.cache
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_MarkupCompile.lref
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\AuthorizationWindow.baml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\CompanyInfoWindow.baml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\DocumentsWindow.baml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\EmployeesWindow.baml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\InsertTaskWindow.baml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\MainMenuWindow.baml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\NewsWindow.baml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\TasksWindow.baml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UpdateTaskWindow.baml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.g.resources
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.Properties.Resources.resources
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.GenerateResource.cache
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.CoreCompileInputs.cache
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.CopyComplete
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.exe
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.pdb
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\WindowForAdmin.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\WindowForAdmin.baml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UserTasksWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UserTasksWindow.baml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\System.Drawing.Common.dll
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\System.Drawing.Common.pdb
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\System.Drawing.Common.xml
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\2-PC\Desktop\учеба\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.AssemblyReference.cache
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.exe.config
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.exe
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.pdb
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.dll
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\System.Drawing.Common.dll
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.xml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\System.Drawing.Common.pdb
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\System.Drawing.Common.xml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.AssemblyReference.cache
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\AuthorizationWindow.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\CompanyInfoWindow.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\DocumentsWindow.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\EmployeesWindow.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\InsertTaskWindow.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\MainMenuWindow.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\NewsWindow.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\TasksWindow.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UpdateTaskWindow.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UserTasksWindow.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\WindowForAdmin.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\App.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_Content.g.cs
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_MarkupCompile.cache
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_MarkupCompile.lref
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\AuthorizationWindow.baml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\CompanyInfoWindow.baml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\DocumentsWindow.baml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\EmployeesWindow.baml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\InsertTaskWindow.baml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\MainMenuWindow.baml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\NewsWindow.baml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\TasksWindow.baml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UpdateTaskWindow.baml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UserTasksWindow.baml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\WindowForAdmin.baml
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.g.resources
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.Properties.Resources.resources
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.GenerateResource.cache
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.CoreCompileInputs.cache
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskMana.04D262FE.Up2Date
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.exe
+C:\Users\justb\OneDrive\Рабочий стол\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.pdb
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.exe.config
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.exe
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\TaskManagerWPF.pdb
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.dll
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\System.Drawing.Common.dll
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.xml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\System.Drawing.Common.pdb
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\System.Drawing.Common.xml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\AuthorizationWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\CompanyInfoWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\DocumentsWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\EmployeesWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\InsertTaskWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\MainMenuWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\NewsWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\TasksWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UpdateTaskWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UserTasksWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\WindowForAdmin.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\App.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_Content.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_MarkupCompile.cache
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF_MarkupCompile.lref
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\AuthorizationWindow.baml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\CompanyInfoWindow.baml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\DocumentsWindow.baml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\EmployeesWindow.baml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\InsertTaskWindow.baml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\MainMenuWindow.baml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\NewsWindow.baml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\TasksWindow.baml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UpdateTaskWindow.baml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\UserTasksWindow.baml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\WindowForAdmin.baml
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.g.resources
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.Properties.Resources.resources
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.GenerateResource.cache
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.CoreCompileInputs.cache
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.CopyComplete
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.exe
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.pdb
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.AssemblyReference.cache
