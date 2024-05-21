@@ -12,6 +12,43 @@
         WindowStartupLocation="CenterScreen" MouseDown="Border_MouseDown">
     <Window.Resources>
 
+        <ImageBrush x:Key="HomeBtn_MouseOver" ImageSource="/Resourses/HomeBtn_MouseOver.png"/>
+
+        <Style x:Key="Home_btn" TargetType="{x:Type Button}">
+
+            <Setter Property="Template">
+
+                <Setter.Value>
+
+                    <ControlTemplate TargetType="{x:Type Button}">
+
+                        <Border x:Name="button"
+                                BorderThickness="0"
+                                Background="{TemplateBinding Background}"
+                                SnapsToDevicePixels="True">
+
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="button">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="/Resourses/HomeBtn_MouseOver.png"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+
+                        </ControlTemplate.Triggers>
+
+                    </ControlTemplate>
+
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+        
         <!--// Toggle Button Style Template //-->
 
         <ImageBrush x:Key="tb_mouse_over"
@@ -150,7 +187,7 @@
                     <ImageBrush ImageSource="/Resourses/closeBtn_default.png" Stretch="Fill"/>
                 </Button.Background>
             </Button>
-            <Button HorizontalAlignment="Right" VerticalAlignment="Center" Height="30" Width="30" Margin="10,0,60,10" Click="HomeBtn_Click" BorderThickness="0" >
+            <Button  Style="{StaticResource Home_btn}" HorizontalAlignment="Right" VerticalAlignment="Center" Height="30" Width="30" Margin="10,0,60,10" Click="HomeBtn_Click" BorderThickness="0" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Resourses/home.png"/>
                 </Button.Background>

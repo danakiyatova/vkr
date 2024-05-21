@@ -42,7 +42,7 @@ namespace TaskManagerWPF.View.Windows
 
         private void CloseBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (MessageBox.Show($"Вы точно хотите выйти?", "Внимаение!",
+            if (MessageBox.Show($"Вы точно хотите выйти?", "Внимание!",
               MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
             {
                 base.OnClosed(e);
