@@ -144,6 +144,32 @@ namespace TaskManagerWPF.View.Windows
                 p.PrintVisual(myDataGrid, "Печать");
             }
         }
+
+      
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string searchText = search_TextBox.Text.ToLower();
+
+            if (string.IsNullOrEmpty(searchText))
+            {
+                myDataGrid.ItemsSource = modifyTasksLists;
+            }
+            else
+            {
+                var filteredTasks = modifyTasksLists.Where(task =>
+                    task != null &&
+                    (
+                        (task.TaskName != null && task.TaskName.ToLower().Contains(searchText)) ||
+                        (task.TaskExecutor != null && task.TaskExecutor.ToLower().Contains(searchText)) ||
+                        (task.TaskContext != null && task.TaskContext.ToLower().Contains(searchText)) ||
+                        (task.TaskStatusName != null && task.TaskStatusName.ToLower().Contains(searchText)) ||
+                        (task.Surname != null && task.Surname.ToLower().Contains(searchText))
+                    )
+                );
+
+                myDataGrid.ItemsSource = filteredTasks;
+            }
+        }
     }
     }
 

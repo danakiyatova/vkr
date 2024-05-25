@@ -30,15 +30,15 @@ namespace TaskManagerWPF.View.Windows
         public InsertTaskWindow()
         {
             InitializeComponent();
-      
+
 
             DataContext = _currentTask;
-            //TaskEmployeeCB.ItemsSource = TaskManagerDBEntities.GetContext().Employee.ToList();
-            //TaskStatusCB.ItemsSource = TaskManagerDBEntities.GetContext().TaskStatus.ToList();
+            TaskEmployeeCB.ItemsSource = TaskManagerDBEntities.GetContext().Employee.ToList();
+            TaskStatusCB.ItemsSource = TaskManagerDBEntities.GetContext().TaskStatus.ToList();
 
         }
 
-       
+
 
         private void CloseBtn_Click(object sender, RoutedEventArgs e)
         {

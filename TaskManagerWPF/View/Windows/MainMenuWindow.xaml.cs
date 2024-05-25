@@ -139,5 +139,12 @@ namespace TaskManagerWPF.View.Windows
             companyInfoWindow.Show();
             
         }
+
+        private void Help_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.Hide();
+            HelpWindow newsWindow = new HelpWindow();
+            newsWindow.Show();
+        }
     }
 }

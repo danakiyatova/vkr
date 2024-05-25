@@ -222,21 +222,32 @@
                             <TextBlock FontFamily="Roboto Light" 
                                FontSize="14" 
                                Foreground="Black"
-                               TextWrapping="Wrap">
-                        <Run Text="{Binding Surname}" Foreground="#FF2BFF00"/>
-                        <Run Text="{Binding Name}" Foreground="#FF2BFF00"/>
-                        <Run Text="{Binding Patronymic}" Foreground="#FF2BFF00"/>
+                               TextWrapping="Wrap" >
+                             
+                                    <TextBlock.Effect>
+
+                                        <DropShadowEffect  BlurRadius="4"
+                                                   ShadowDepth="1"
+                                                   Direction="-90"
+                                                   Color="White"/>
+
+                                    </TextBlock.Effect>
+                        <Run Text="{Binding Surname}" Foreground="#FF2BFF00" FontFamily="Roboto Light"/>
+                        <Run Text="{Binding Name}" Foreground="#FF2BFF00" FontFamily="Roboto Light"/>
+                        <Run Text="{Binding Patronymic}" Foreground="#FF2BFF00" FontFamily="Roboto Light"/>
                         <LineBreak/>
                         
-                        <Run Text="{Binding PhoneNumber}" Foreground="White"/>
+                        <Run Text="{Binding PhoneNumber}" Foreground="White" FontFamily="Roboto Light" />
                         <LineBreak/>
-                                 <TextBlock Text="{Binding Email}" Foreground="White">
+                                 <TextBlock Text="{Binding Email}" Foreground="White" FontFamily="Roboto Light">
                                     <TextBlock.InputBindings>
                                         <MouseBinding MouseAction="LeftClick" Command="{Binding ElementName=UserList, Path=DataContext.EmailHyperlinkCommand}" CommandParameter="{Binding Email}" />
                                     </TextBlock.InputBindings>
                    </TextBlock>
                         <LineBreak/>
-                        <Run Text="{Binding LastLogin}" Foreground="White"/>
+                                <Run Text="Последний вход: " Foreground="White" FontFamily="Roboto Light"></Run> 
+                                 <LineBreak/>
+                        <Run Text="{Binding LastLogin}" Foreground="White" FontFamily="Roboto Light" />
                             </TextBlock>
                         </StackPanel>
                     </Grid>

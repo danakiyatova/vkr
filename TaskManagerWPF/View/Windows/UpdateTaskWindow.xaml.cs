@@ -28,10 +28,10 @@ namespace TaskManagerWPF.View.Windows
         {
             InitializeComponent();
 
-            //updateTaskEmployeeCB.ItemsSource = TaskManagerDBEntities.GetContext().Employee.ToList();
-            //updateTaskStatusCB.ItemsSource = TaskManagerDBEntities.GetContext().TaskStatus.ToList();
+            updateTaskEmployeeCB.ItemsSource = TaskManagerDBEntities.GetContext().Employee.ToList();
+            updateTaskStatusCB.ItemsSource = TaskManagerDBEntities.GetContext().TaskStatus.ToList();
             DataContext = new UpdateTaskWindowViewModel();
-       Id = taskId; 
+            Id = taskId;
 
         }
         private void CloseBtn_Click(object sender, RoutedEventArgs e)

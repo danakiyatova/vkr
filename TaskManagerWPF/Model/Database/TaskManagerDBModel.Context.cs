@@ -17,14 +17,17 @@ namespace TaskManagerWPF.Model.Database
     
     public partial class TaskManagerDBEntities : DbContext
     {
+        private static TaskManagerDBEntities _context;
         public TaskManagerDBEntities()
             : base("name=TaskManagerDBEntities")
         {
         }
-    
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+
+        public static TaskManagerDBEntities GetContext()
         {
-            throw new UnintentionalCodeFirstException();
+            if (_context == null)
+            _context = new TaskManagerDBEntities();
+            return _context;
         }
     
         public virtual DbSet<Authorization> Authorization { get; set; }

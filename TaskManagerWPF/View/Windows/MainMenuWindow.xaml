@@ -536,7 +536,7 @@
                                       >
 
                             <StackPanel Orientation="Horizontal"
-                                        Width="230">
+                                        Width="230" MouseDown="Help_MouseDown" >
 
                                 <Image Source="/Resourses/quest_info.png" Height="30" Width="30"
                                        Stretch="Fill"

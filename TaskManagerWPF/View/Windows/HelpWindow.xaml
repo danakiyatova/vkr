@@ -1,0 +1,286 @@
+﻿<Window x:Class="TaskManagerWPF.View.Windows.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskManagerWPF.View.Windows"
+        mc:Ignorable="d"
+        Title="NewsWindow" Height="600" 
+        Width="800"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen" MouseDown="Border_MouseDown">
+    <Window.Resources>
+
+       
+            <Style TargetType="{x:Type Paragraph}" BasedOn="{StaticResource {x:Type Paragraph}}">
+                <Setter Property="FontFamily" Value="Roboto-Light"/>
+            <Setter Property="Foreground"
+                    Value="White"/>
+
+            
+
+        </Style>
+       
+
+        <Style x:Key="Home_btn" TargetType="{x:Type Button}">
+
+            <Setter Property="Template">
+
+                <Setter.Value>
+
+                    <ControlTemplate TargetType="{x:Type Button}">
+
+                        <Border x:Name="button"
+                                BorderThickness="0"
+                                Background="{TemplateBinding Background}"
+                                SnapsToDevicePixels="True"/>
+
+                        <ControlTemplate.Triggers>
+
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="button">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="/Resourses/HomeBtn_MouseOver.png"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+
+                        </ControlTemplate.Triggers>
+
+                    </ControlTemplate>
+
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+
+        <!--// Toggle Button Style Template //-->
+
+        <ImageBrush x:Key="tb_mouse_over"
+                    ImageSource="/Resourses/tgBtn_MouseOver.png"/>
+
+        <!--// App Close Button Style Template //-->
+
+        <ImageBrush x:Key="CloseBtn_MouseOver" ImageSource="/Resourses/closeBtn_MouseOver.png"/>
+
+        <Style x:Key="Close_btn" TargetType="{x:Type Button}">
+
+            <Setter Property="Template">
+
+                <Setter.Value>
+
+                    <ControlTemplate TargetType="{x:Type Button}">
+
+                        <Border x:Name="button"
+                                BorderThickness="0"
+                                Background="{TemplateBinding Background}"
+                                SnapsToDevicePixels="True">
+
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+
+                            <Trigger Property="IsMouseOver"
+                                     Value="True">
+
+                                <Setter Property="Background"
+                                        TargetName="button"
+                                        Value="{StaticResource CloseBtn_MouseOver}"/>
+
+                            </Trigger>
+
+                        </ControlTemplate.Triggers>
+
+                    </ControlTemplate>
+
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+
+        <Style x:Key="font_style_two" TargetType="TextBlock">
+
+            <Setter Property="FontFamily"
+                    Value="Fonts/Roboto-Light.ttf #Roboto"/>
+
+            <Setter Property="VerticalAlignment"
+                    Value="Stretch"/>
+
+
+
+            <Setter Property="Foreground"
+                    Value="White"/>
+
+            <Setter Property="FontSize"
+                    Value="18"/>
+        </Style>
+
+        <Style x:Key="font_style" TargetType="TextBlock">
+
+            <Setter Property="FontFamily"
+                    Value="Fonts/Roboto-Light.ttf #Roboto"/>
+
+            <Setter Property="VerticalAlignment"
+                    Value="Center"/>
+
+            <Setter Property="HorizontalAlignment"
+                    Value="Center"/>
+
+            <Setter Property="Foreground"
+                    Value="White"/>
+
+            <Setter Property="FontSize"
+                    Value="20"/>
+
+        </Style>
+
+    </Window.Resources>
+    <Grid Background="#2E333A">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"
+                           />
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <Grid>
+
+            <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10,0,10,20" x:Name="CloseBtn3" Height="30"
+                        Width="30" BorderThickness="0"
+                        
+                       Click="CloseBtn_Click" ToolTip="Close" Style="{StaticResource Close_btn}" >
+                <Button.Background>
+                    <ImageBrush ImageSource="/Resourses/closeBtn_default.png" Stretch="Fill"/>
+                </Button.Background>
+            </Button>
+            
+            <Button Style="{StaticResource Home_btn}" HorizontalAlignment="Right" VerticalAlignment="Center" Height="30" Width="30" Margin="10,0,60,10" Click="HomeBtn_Click" BorderThickness="0" >
+                <Button.Background>
+                    <ImageBrush ImageSource="/Resourses/home.png"/>
+                </Button.Background>
+            </Button>
+           
+            
+        </Grid>
+        <Grid Grid.RowSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Width="800" Height="450" >
+
+
+
+            <TabControl  HorizontalAlignment="Center" Height="450" Background="#2E333A">
+                
+                <TabItem Header="Работа с приложением">
+                    <FlowDocumentScrollViewer FontFamily="Roboto Light">
+                        <FlowDocument>
+                            <Paragraph FontSize="16" FontWeight="Bold">Руководство пользователя приложения для управления рабочим процессом АО 'Форест'"</Paragraph>
+
+                            <Paragraph>
+                                Данное приложение разработано для управления рабочим процессом АО "Форест". 
+                    Оно предоставляет удобный интерфейс для работы с информацией о задачах, сотрудниках и документах компании.
+                            </Paragraph>
+
+                            <Paragraph FontSize="14" FontWeight="Bold">Основные возможности:</Paragraph>
+                            <List MarkerStyle="Disc">
+                                <ListItem>
+                                    <Paragraph>Авторизация пользователей с разграничением прав доступа (администратор, пользователь).</Paragraph>
+                                </ListItem>
+                                <ListItem>
+                                    <Paragraph>Просмотр информации об АО "Форест".</Paragraph>
+                                </ListItem>
+
+                                <ListItem>
+                                    <Paragraph>Просмотр списка задач.</Paragraph>
+                                </ListItem>
+                                <ListItem>
+                                    <Paragraph>Добавление новых задач с указанием названия, описания, исполнителя, срока выполнения и статуса.</Paragraph>
+                                </ListItem>
+                                <ListItem>
+                                    <Paragraph>Редактирование информации о задачах.</Paragraph>
+                                </ListItem>
+                                <ListItem>
+                                    <Paragraph>Удаление задач.</Paragraph>
+                                </ListItem>
+                                <ListItem>
+                                    <Paragraph>Поиск и сортировка задач.</Paragraph>
+                                </ListItem>
+                                <ListItem>
+                                    <Paragraph>Печать списка задач.</Paragraph>
+                                </ListItem>
+                                <ListItem>
+                                    <Paragraph>Отслеживание статуса задач.</Paragraph>
+                                </ListItem>
+
+                                <ListItem>
+                                    <Paragraph>Просмотр списка сотрудников.</Paragraph>
+                                </ListItem>
+                                <ListItem>
+                                    <Paragraph>Просмотр информации о последнем входе сотрудника в систему.</Paragraph>
+                                </ListItem>
+                         
+                            <ListItem>
+                                <Paragraph>Просмотр документов компании.</Paragraph>
+                            </ListItem>
+                            </List>
+
+                            <Paragraph FontSize="14" FontWeight="Bold">Работа с приложением:</Paragraph>
+
+                            <Paragraph>
+                                <Bold>Авторизация:</Bold>
+                                <LineBreak />
+                                При запуске приложения открывается окно авторизации. 
+                    Введите логин и пароль для входа в систему. 
+                    В случае неверного ввода данных появится сообщение об ошибке.
+                            </Paragraph>
+
+                            <Paragraph FontSize="14" FontWeight="Bold">Главное окно:</Paragraph>
+                            <Paragraph>
+                                <LineBreak />
+                                После успешной авторизации открывается главное окно приложения. 
+    В зависимости от уровня доступа (администратор или пользователь) 
+    вам будут доступны различные функции.
+                                <LineBreak />
+                                <LineBreak />
+                                <Bold>Главное окно администратора:</Bold>
+                                <LineBreak />
+                                Администратору доступны все функции приложения, включая управление пользователями, 
+    просмотр отчетов, настройку системы и другие административные функции. 
+    На главном экране администратора отображается сводная информация о состоянии системы, 
+    например, количество активных задач, количество пользователей и т.д.
+                                <LineBreak />
+                                <Image Source="C:\Users\2-PC\Pictures\app\Сок.png" Width="400" HorizontalAlignment="Center" />
+                                <LineBreak />
+                                <LineBreak />
+                                <Bold>Главное окно пользователя:</Bold>
+                                <LineBreak />
+                                Пользователь имеет доступ только к тем функциям, которые разрешены ему администратором. 
+    На главном экране пользователя отображается информация, релевантная его роли 
+    и задачам, например, список назначенных ему задач, календарь событий и т.д.
+                                <LineBreak />
+                                <Image Source="C:\Users\2-PC\Pictures\app\jnfhn.png" Width="400" HorizontalAlignment="Center"  />
+                            </Paragraph>
+
+                        </FlowDocument>
+                    </FlowDocumentScrollViewer>
+                </TabItem>
+                <TabItem Header="Информация о разработчике">
+                    <FlowDocumentScrollViewer FontFamily="Roboto Light">
+                        <FlowDocument>
+                            <Paragraph FontSize="20" FontWeight="Bold" FontFamily="Roboto Light">
+                                <Bold>Киятова Дана Ахмедовна</Bold>
+                               
+                            </Paragraph>
+                            <Paragraph FontFamily="Roboto Light">
+                              
+                                студентка группы ИС-43
+                                <LineBreak/>
+                                тг: @bvnnvd
+                            </Paragraph>
+                        </FlowDocument>
+                    </FlowDocumentScrollViewer>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </Grid>
+</Window>

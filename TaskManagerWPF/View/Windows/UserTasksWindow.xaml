@@ -193,18 +193,30 @@
 
         </Grid>
 
-        <Grid Grid.Row="1" Height="480">
+        <Grid Grid.Row="1" Height="550">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
 
             </Grid.ColumnDefinitions>
 
+            <Image VerticalAlignment="Top" HorizontalAlignment="Right" Source="/Resourses/search.png" Stretch="Fill" Width="30" Height="30" Margin="0,0,390,0" />
+            <TextBox x:Name="search_TextBox" Width="300" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,80,0"  BorderBrush="#FF0A7B00" BorderThickness="3" Background="#2E333A"  FontSize="17" Foreground="White" FontFamily="Roboto Light" TextChanged="TextBox_TextChanged">
+                <TextBox.Effect>
+
+                    <DropShadowEffect  BlurRadius="4"
+                     ShadowDepth="1"
+                    Direction="-90"
+                    Color="White"/>
+
+                </TextBox.Effect>
+            </TextBox>
+            
             <DataGrid x:Name="myDataGrid" x:FieldModifier="public"
             IsReadOnly = "true"
                        ItemsSource="{Binding Task}"
             SelectionChanged="DataGrid_SelectionChanged"
             AutoGenerateColumns="False" Visibility="Visible" 
-                 HorizontalAlignment="Center" Margin="30,0,30,0"  Height="450" VerticalAlignment="Center" Width="1040" Foreground="White" Background="#FF2E333A" FontFamily="Roboto Light" >
+                 HorizontalAlignment="Center" Margin="0,10,0,0"  Height="470" VerticalAlignment="Center" Width="1040" Foreground="White" Background="#FF2E333A" FontFamily="Roboto Light" >
 
                 <DataGrid.ColumnHeaderStyle>
                     <Style TargetType="DataGridColumnHeader">
@@ -253,8 +265,8 @@
                             </Style>
                         </DataGridTextColumn.ElementStyle>
                     </DataGridTextColumn>
-                    <DataGridTextColumn Header="НАЧАЛО" Binding="{Binding TaskStart}" Width="140"/>
-                    <DataGridTextColumn Header="ЗАВЕРШЕНИЕ" Binding="{Binding TaskEnd}" Width="140"/>
+                    <DataGridTextColumn Header="НАЧАЛО" Binding="{Binding TaskStart, StringFormat='dd.MM.yyyy'}" Width="140"/>
+                    <DataGridTextColumn Header="ЗАВЕРШЕНИЕ" Binding="{Binding TaskEnd, StringFormat='dd.MM.yyyy'}" Width="140"/>
 
                     <DataGridTextColumn Header="СТАТУС" Binding="{Binding TaskStatusName}" Width="100"/>
 
@@ -277,7 +289,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             
-            <Button x:Name="printBtn" HorizontalAlignment="Center" VerticalAlignment="Top" Click="printBtn_Click" Height="40" Width="110" FontFamily="Roboto Light" FontSize="18"  Style="{StaticResource ButtonStyle}" Foreground="#FF0A7B00" Margin="145,0,0,0" Grid.ColumnSpan="2" Grid.Column="2" >
+            <Button x:Name="printBtn" HorizontalAlignment="Right" VerticalAlignment="Top" Click="printBtn_Click" Height="40" Width="110" FontFamily="Roboto Light" FontSize="18"  Style="{StaticResource ButtonStyle}" Foreground="#FF0A7B00" Margin="0,0,80,0" Grid.ColumnSpan="2" Grid.Column="2" >
                 <TextBlock Text="ПЕЧАТЬ" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Normal"  Style="{StaticResource font_style}" FontSize="17" Foreground="White" >
                     <TextBlock.Effect>
 

@@ -254,4 +254,6 @@ C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManage
 C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.CopyComplete
 C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.exe
 C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.pdb
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\HelpWindow.g.cs
+C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\View\Windows\HelpWindow.baml
 C:\Users\2-PC\Desktop\учеба\Новая папка\TaskManagerWPF\TaskManagerWPF\obj\Debug\TaskManagerWPF.csproj.AssemblyReference.cache
